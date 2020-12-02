@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 100px;
+    background-color: #EEE;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 2rem 5rem;
+    justify-content: space-between;
+    background-color: #eee;
+    z-index: 1;
+}
+
+#header-img {
+    width: 400px;
+    height: auto;
+}
+
+#nav-bar {
+    float: right;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.container {
+    width: 100;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+#video {
+    width: 100%;
+}
+
+#form {
+    padding: 1rem;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+    height: 2.5rem;
+    border-radius: 10px;
+    padding: .4rem;
+    font-size: 1.4rem;
+}
+
+input[type="submit"] {
+    background-color: #FFFF66;
+    text-transform: uppercase;
+    height: 3rem;
+}
+
+.select-btn {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: .7rem;
+    background-color: #FFFF66;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+/* FEATURES */
+
+
+.feature {
+    display: flex;
+    padding: 1rem;
+    border: 2px solid black;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: #FFFF66;
+}
+
+.feature-img {
+    padding: .5rem;
+    min-width: 6rem;
+}
+
+.feature-info {
+    padding: .5rem;
+}
+
+.fa {
+    font-size: 4rem;
+}
+
+/* PRICING */
+
+.pricing {
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-box {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px black solid;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    display: flex;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+
+.copyright {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+    .pricing {
+        flex-direction: column;
+    }
+}
