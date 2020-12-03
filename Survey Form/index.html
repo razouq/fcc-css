@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syrvey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">developer Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form" action="">
+            <label id="name-label" for="name"> Name <input id="name" type="text"
+                    placeholder="Enter your name" required>
+            </label>
+            <label id="email-label" for="email"> Email <input id="email" type="email"
+                    placeholder="Enter your email" required>
+            </label>
+            <label id="number-label" for="number"> Age <input id="number" type="number"
+                    placeholder="Age" min="18" max="100" required>
+            </label>
+            <label for="dropdown"> Level <select name="job" id="dropdown">
+                    <option disabled selected value>Select your level</option>
+                    <option value="Actor">Junior</option>
+                    <option value="Accountant">Mid-Senior</option>
+                    <option value="Auditor">Senior</option>
+                </select>
+            </label>
+            <fieldset>
+                <legend>Sex</legend>
+                <label for="sex-male">
+                    <input type="radio" name="sex" id="sex-male" value="male"> Male </label>
+                <label for="sex-female">
+                    <input type="radio" name="sex" id="sex-female" value="female"> Female </label>
+            </fieldset>
+            <fieldset>
+                <legend>Skills</legend>
+                <label for="html">
+                    <input type="checkbox" id="html" value="html"> HTML </label>
+                <label for="css">
+                    <input type="checkbox" id="css" value="css"> CSS </label>
+                <label for="js">
+                    <input type="checkbox" id="js" value="js"> JS </label>
+                <label for="git">
+                    <input type="checkbox" id="git" value="git"> GIT </label>
+                <label id="suggestions-label" for="suggestions">Suggestions <textarea name="suggestions" id="suggestions"
+                        placeholder="Enter any suggestions .." cols="30" rows="10"></textarea>
+                    <button id="submit" type="submit">Submit</button>
+                </label>
+            </fieldset>
+        </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
