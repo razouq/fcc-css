@@ -1,0 +1,53 @@
+#main {
+    background-color: #DDD;
+}
+
+#title {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+ul li {
+    margin: 1rem
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#img-div {
+    background-color: white;
+    margin: 3rem;
+}
+
+#image {
+    margin: 1rem auto;
+    display: block;
+    width: 80%;
+    max-width: 900px;
+    height: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+q {
+    display: inline-block;
+    padding: 3rem;
+    font-style: italic;
+}
+
+.quote {
+    font-style: italic;
+}
