@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+#navbar {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #145A32;
+    text-align: right;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navbar ul li {
+    margin: 1.6rem;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a {
+    color: white;
+}
+
+/* WELCOME SECTION */
+
+#welcome-section {
+    height: 100vh;
+    background-color: #566573;
+}
+
+#welcome-section h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 40vh;
+}
+
+#welcome-section p {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* PROJECTS */
+
+#projects {
+    min-height: 100vh;
+    padding-top: 80px;
+    background-color: #ABEBC6;
+}
+
+#projects h1 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #222;
+    font-size: 3rem;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:auto;
+    justify-content: space-evenly;
+}
+
+.project-tile {
+    flex: 0 1 30%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.project-tile img {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 2rem;
+    border: 2px solid #222;
+}
+
+.projects-list a {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #222;
+}
+   
+/* CONTACT */
+
+#contact {
+    height: 100vh;
+    padding-top: 80px;
+    background-color: #566573;
+    color: white;
+}
+
+#contact h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20rem;
+}
+
+#contact ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#contact li {
+    padding: 3rem;
+}
+
+#contact li a {
+    font-size: 1.5rem;
+    color: inherit;
+}
+
+/* FOOTER */
+
+footer {
+    height: 150px;
+    border-top: 7px solid #145A32;
+    background-color: #566573;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 2rem;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .projects-list {
+        flex-direction: column;
+    }
+}
